@@ -6,7 +6,7 @@ import datetime
 
 engine = pyttsx3.init()
 listener = sr.Recognizer()
-openai.api_key = "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"
+openai.api_key = "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"
 
 while True:
     with sr.Microphone() as source:
